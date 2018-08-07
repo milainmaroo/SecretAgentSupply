@@ -1,0 +1,61 @@
+html {
+  font-size: 18px;
+  font-family: Helvetica, sans-serif;
+  color: white;
+/*  width: 960px; */
+}
+/*Header Section */
+.logo img {
+  height: 1.5rem;
+  padding-left: 0.5rem;
+  padding-right: 1rem;
+}
+
+.logo {
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  background-color: black;
+  padding: 0.66rem;
+}
+
+.image-content {
+  background-image: url("../images/main-banner.jpg");
+  height: 25rem;
+}
+
+.new-arrival {
+  border: 1px solid black;
+  width: 20rem;
+  background-color: black;
+  padding: 2rem 3rem 2rem 3rem;
+}
+
+.new-arrival h1 {
+  font-size: 2rem;
+  padding-top: 0.25rem;
+}
+
+.menu-content {
+/*  display: inline-flex;
+  justify-content: center;
+  align-items: center; */
+  padding: 0.75rem;
+  background-color: firebrick;
+  text-align: center;
+}
+
+
+/* Container Section */
+.accessories {
+  display: flex;
+  align-items: center;
+/*  border: 1px solid black; */
+  width: 30%;
+}
+
+/* Footer Section */
+footer {
+  height: 5rem;
+  background-color: black;
+}
